@@ -31,7 +31,7 @@ st.markdown('Only accounts in the AWS West Region (as shown above) can be added 
 current_account_function = "https://learn.snowflake.com/asset-v1:snowflake+ESS-SMEW+C+type@asset+block@current_account_function.png"
 st.image(current_account_function)
 
-my_account_locator = st.text_input('What result do you get if you run the CURRENT_ACCOUNT function?', 'abc12345')
+my_account_locator = st.text_input('After running the CURRENT_ACCOUNT function, paste your Account Locator in the field below.', 'abc12345')
 
 
 #st.stop()
