@@ -26,7 +26,6 @@ st.image(current_region_function)
 
 st.markdown('Only accounts in the AWS West Region (as shown above) can be added to the Bridge-2023 Private Exchange. This exchange was set up so that all learners can efficiently consume data from our private exchange, today. If your account is in the correct region, submit your account locator below.')
 
-
  
 current_account_function = "https://learn.snowflake.com/asset-v1:snowflake+ESS-SMEW+C+type@asset+block@current_account_function.png"
 st.image(current_account_function)
